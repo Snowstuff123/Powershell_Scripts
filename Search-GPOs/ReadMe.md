@@ -1,4 +1,7 @@
 --- SEARCH-GPOs by John Heisler ---
+
+**Note: Examples assume the script is "installed" from a repository. You may have to repalce "Search-GPOs" with the filepath of the script.
+
 -----------------------------------
 
 VERSION 1.0
@@ -46,8 +49,8 @@ Dispaly Results in a Gridview
 
 Example 1
 Search GPOs for "FolderRedirect" and dispaly Results in a Gridview.
-Search-GPO -String FolderRedirect -Gridview
+Search-GPOs -String FolderRedirect -Gridview
 
 Example 2
 Search GPOs for "FolderRedirect" and export Results to C:\setup\Results.csv.
-Search-GPO -String FolderRedirect -OutCSV "C:\setup\Results.csv"
+Search-GPOs -String FolderRedirect -OutCSV "C:\setup\Results.csv"
