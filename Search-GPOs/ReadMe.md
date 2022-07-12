@@ -1,12 +1,7 @@
 --- SEARCH-GPOs by John Heisler ---
-
-**Note: Examples assume the script is "installed" from a repository. You may have to repalce "Search-GPOs" with the filepath of the script.
-
 -----------------------------------
 
 VERSION 1.0
-
-GUID 12689a1c-0efb-4a96-831f-35aafbb0917a
 
 AUTHOR hello@JohnJHeisler.com
 
