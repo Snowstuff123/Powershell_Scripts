@@ -1,11 +1,35 @@
-# Powershell_Scripts
+# John Heisler's PowerShell Scripts
 
-Some Pretty Useful PowerShell Scripts. Remember to read the associated ReadMe files.
+![Hero image for John Heisler's PowerShell Scripts](overview/ZenShellHeroImage.png)
 
+[My Website] [JHWebLink] | [My Blog] [JHBlog] | [Email Me] [JHEmail] | [My Socials] [JHFindMe]
+
+## About
+
+A collection of PowerShell scripts and tools I've written as part of my day-to-day System Administration duties or for the IT Support Techs I wrok with. Hoping others will find these useful as well.
+
+|                        | Current Tools/Scripts: |                        |
+|------------------------|------------------------|------------------------|
+| [Search-GPOs](https://github.com/Snowstuff123/Powershell_Scripts/blob/main/Search-GPOs/) | [Set-UserExpiration](https://github.com/Snowstuff123/Powershell_Scripts/blob/main/Set-UserExpiration/) | More Coming Soon! |
+
+## Using these scripts
+
+Make sure the Execution policy will allow you to run the script
+
+### From a PowerShell propmt
+- Download the .PS1 file for the script you want to use.
+- Put in the filepath followed by the parameters
+  - '''Powershell
+  <filepath to .PS1> -Param1 -Param2
+  '''
 ## Search-GPOs
-
-Search a domain's Group Policies for a string of text and display matches to a gridview or export them to a CSV
+Ever needed to search all the Group Policy objects in your domain for a string of text? Look no further!
 
 ## Set-UserExpiration
+Its basically the Set-ADAccountExpiration with some extra logic. [See the accompanying blog post here] (https://www.johnjheisler.net/2022/03/user-accounts-set-to-expire.html)
 
-Set an AD user's account expiration date to a given date. Has included logic to cap the date at 90 days in the future. Will also default to 90 days if no date is provided.
+
+[JHWebLink]: https://www.johnjheisler.com/
+[JHFindMe]: https://www.johnjheisler.com/find-me
+[JHBlog]: https://www.johnjheisler.net/
+[JHEmail]: mailto:Hello@JohnJHeisler.com
