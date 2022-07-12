@@ -2,7 +2,7 @@
 
 ![Hero image for John Heisler's PowerShell Scripts](overview/ZenShellHeroImage.png)
 
-[My Website] [JHWebLink] | [My Blog] [JHBlog] | [Email Me] [JHEmail] | [My Socials] [JHFindMe]
+[My Website][JHWebLink] | [My Blog][JHBlog] | [Email Me][JHEmail] | [My Socials][JHFindMe]
 
 ## About
 
@@ -26,7 +26,7 @@ Make sure the Execution policy will allow you to run the script
 Ever needed to search all the Group Policy objects in your domain for a string of text? Look no further!
 
 ## Set-UserExpiration
-Its basically the Set-ADAccountExpiration with some extra logic. [See the accompanying blog post here] (https://www.johnjheisler.net/2022/03/user-accounts-set-to-expire.html)
+Its basically the Set-ADAccountExpiration with some extra logic. [See the accompanying blog post here](https://www.johnjheisler.net/2022/03/user-accounts-set-to-expire.html)
 
 
 [JHWebLink]: https://www.johnjheisler.com/
