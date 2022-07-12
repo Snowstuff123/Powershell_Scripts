@@ -1,6 +1,6 @@
 # John Heisler's PowerShell Scripts
 
-![Hero image for John Heisler's PowerShell Scripts](overview/ZenShellHeroImage.png)
+![Hero image for John Heisler's PowerShell Scripts](Overview/ZenShellHeroImage.png)
 
 [My Website][JHWebLink] | [My Blog][JHBlog] | [Email Me][JHEmail] | [My Socials][JHFindMe]
 
