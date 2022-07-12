@@ -23,13 +23,12 @@ function Set-UserExpiration {
     #>
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory=$true,ValueFromPipeline=$true)]
+        [Parameter(ValueFromPipeline=$true)]
         [String[]]
-        $Identity,
+        $Identity = (Read-Host "Enter Username"),
 
         [Parameter()]
-        [ValidateCount(0,1)]
-        [String[]]
+        [String]
         $Date
     )
 
