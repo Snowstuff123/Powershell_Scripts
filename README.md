@@ -19,8 +19,9 @@ Make sure the Execution policy will allow you to run the script
 ### From a PowerShell propmt
 - Download the .PS1 file for the script you want to use.
 - Put in the filepath followed by the parameters
+- Example: _Make sure you have the '.' at the start and the correct filepath in the quotes._
 ```Powershell
-<filepath to .PS1> -Param1 -Param2
+. 'C:\Scripts\Script.PS1' -Param1 -Param2
 ```
 ## Search-GPOs
 Ever needed to search all the Group Policy objects in your domain for a string of text? Look no further!
