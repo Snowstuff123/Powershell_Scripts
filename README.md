@@ -10,7 +10,8 @@ A collection of PowerShell scripts and tools I've written as part of my day-to-d
 
 |                        | Current Tools/Scripts: |                        |
 |------------------------|------------------------|------------------------|
-| [Search-GPOs](https://github.com/Snowstuff123/Powershell_Scripts/blob/main/Search-GPOs/) | [Set-UserExpiration](https://github.com/Snowstuff123/Powershell_Scripts/blob/main/Set-UserExpiration/) | More Coming Soon! |
+| [Search-GPOs](https://github.com/Snowstuff123/Powershell_Scripts/blob/main/Search-GPOs/) | [Set-UserExpiration](https://github.com/Snowstuff123/Powershell_Scripts/blob/main/Set-UserExpiration/) | [Get-ADUserGroups](https://github.com/Snowstuff123/Powershell_Scripts/tree/main/Get-ADGroups) |
+|                        | More Coming Soon! |                        |
 
 ## Using these scripts
 
@@ -29,6 +30,8 @@ Ever needed to search all the Group Policy objects in your domain for a string o
 ## Set-UserExpiration
 Its basically the Set-ADAccountExpiration with some extra logic. [See the accompanying blog post here](https://www.johnjheisler.net/2022/03/user-accounts-set-to-expire.html)
 
+## Get-ADUserGroups
+Need to list out a User's AD Groups quickly and in a way you can copy and paste them? [See the accompanying blog post here](https://www.johnjheisler.net/2024/03/get-users-active-directory-groups.html)
 
 [JHWebLink]: https://www.johnjheisler.com/
 [JHFindMe]: https://www.johnjheisler.com/find-me
